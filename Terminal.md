@@ -60,3 +60,24 @@
 | `git tag`              | Ajoute un tag sur un commit | `git tag v1.0.0` |
 | `git remote -v`        | Liste les dépôts distants | `git remote -v` |
 | `git fetch`            | Récupère les modifications sans les fusionner | `git fetch origin` |
+
+
+**_Commande Package Managers_**
+
+| Commande                      | NPM                              | Yarn                             | PNPM                             |
+| ----------------------------- | --------------------------------- | --------------------------------- | --------------------------------- |
+| **Initialiser un projet**      | `npm init`                       | `yarn init`                       | `pnpm init`                       |
+| **Installer les dépendances**  | `npm install`                    | `yarn install`                    | `pnpm install`                    |
+| **Installer une dépendance**   | `npm install <package>`          | `yarn add <package>`              | `pnpm add <package>`              |
+| **Installer une dépendance (dev)** | `npm install <package> --save-dev` | `yarn add <package> --dev`        | `pnpm add <package> --save-dev`   |
+| **Supprimer une dépendance**   | `npm uninstall <package>`        | `yarn remove <package>`           | `pnpm remove <package>`           |
+| **Mettre à jour les dépendances** | `npm update`                     | `yarn upgrade`                    | `pnpm update`                     |
+| **Lister les paquets installés** | `npm list`                       | `yarn list`                       | `pnpm list`                       |
+| **Vérifier les vulnérabilités** | `npm audit`                      | `yarn audit`                      | `pnpm audit`                      |
+| **Générer un fichier lock**    | `npm shrinkwrap`                 | `yarn lock`                       | `pnpm lock`                       |
+| **Exécuter un script**         | `npm run <script>`               | `yarn run <script>`               | `pnpm run <script>`               |
+| **Afficher les informations sur la version** | `npm --version`                  | `yarn --version`                  | `pnpm --version`                  |
+| **Nettoyer le cache**          | `npm cache clean --force`        | `yarn cache clean`                | `pnpm store prune`                |
+| **Publier un package**         | `npm publish`                    | `yarn publish`                    | `pnpm publish`                    |
+| **Installer un package global**| `npm install -g <package>`       | `yarn global add <package>`       | `pnpm add -g <package>`           |
+
